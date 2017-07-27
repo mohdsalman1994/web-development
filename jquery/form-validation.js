@@ -21,6 +21,7 @@ $("#submitButton").click(function () {
     var fieldsMissing = "";
 
 
+
     if ($("#email").val() == "") {
         fieldsMissing += "<br>email";
     }
@@ -55,19 +56,20 @@ $("#submitButton").click(function () {
         errorMessage += "<p>Both passwords are not the same<p>";
     }
 
-    if(fieldsMissing != "") {
-        fieldsMissing = "The following field(s) are missing:"+ fieldsMissing;
+    if (fieldsMissing != "") {
+        fieldsMissing = "The following field(s) are missing:" + fieldsMissing;
     }
 
     errorMessage += fieldsMissing;
 
-    if(errorMessage != "") {
+    if (errorMessage != "") {
         $("#errormessage").html(errorMessage);
+        $("#errormessage").show();
+        $("#successMessage").hide();
+
+    } else {
+        $("#successMessage").show();
+        $("#errormessage").hide();
+
     }
-    else {
-
-                    $("#successMessage").show();
-                    $("#errorMessage").hide();
-
-                }
 });
