@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <style type="text/css">
+        body {
+            position: relative;
+        }
+
+        h2 {
+            margin-top: 70px;
+        }
+
+        .jumbotron {
+            background-image: url(background-image.jpg);
+            text-align: center;
+        }
+
+        #email {
+            width: 300px;
+        }
+
+        #signup {
+            align-content: center;
+        }
+
+        #appSummary {
+            text-align: center;
+            margin-top: 60px;
+            margin-bottom: 60px;
+        }
+
+        .card-img-top {
+            width: 100%;
+        }
+
+        #footer {
+            margin-top: 300px;
+            padding-top: 50px;
+            padding-bottom: 20px;
+            background-color: #1D9F75;
+            text-align: center;
+        }
+
+        .footer-image {
+            width: 120px;
+            height: 50px;
+            position: relative;
+            bottom: 12px;
+        }
+
+
+        #plane {
+            height: 400px;
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target="#navbar">
+
+
+    <nav class="navbar navbar-toggleable-sm navbar-light fixed-top bg-faded" id="navbar">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <a class="navbar-brand" href="#">My App</a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#jumbotron">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">Download The App</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="email" placeholder="Email">
+                <input class="form-control mr-sm-2" type="password" placeholder="Password">
+                <button class="btn btn-success my-2 my-sm-0" type="submit">Login</button>
+            </form>
+        </div>
+    </nav>
+
+
+    <div class="jumbotron" id="jumbotron">
+        <h1 class="display-3">My Travel Buddy</h1>
+        <p class="lead">"A good companion shortens the longest road"</p>
+        <hr class="my-4">
+        <p>Want to know more? Follow me on twitter #ace-programmer</p>
+
+        <form class="form-inline justify-content-center" id="signup">
+
+            <label class="sr-only" for="inlineFormInputGroup">Username</label>
+            <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                <div class="input-group-addon">@</div>
+                <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+
+
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+        </form>
+
+
+    </div>
+
+
+    <div class="container" id="appSummary">
+
+        <h1>You are one click away from reaching your destination!</h1>
+        Hassle free search to reach any destination you imagine. Don't break a sweat and let My Travel Buddy guide you <br>
+        how to reach your destination be it by cabs, subway or sky-high.
+
+    </div>
+
+    <div class="container" id="about">
+
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="card.jpg" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title"><i class="fa fa-bicycle" aria-hidden="true"></i>Go take a Hike!</h4>
+                    <p class="card-text">Climb mountains not so the world can see you,but you can see
+                    the world.</p>
+
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="airplane.jpg" id="plane" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title"><i class="fa fa-plane" aria-hidden="true"></i>Sky is not the limit, it's just the view</h4>
+                    <p class="card-text">Travel to the most exotic locations throughout the world. You have all the power within your reach.</p>
+
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="roadtraveller.jpg" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title"><i class="fa fa-car" aria-hidden="true"></i>Card title</h4>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid" id="footer">
+
+        <div class="row">
+
+            <div class="col-sm-3">
+                <h3>Download the app</h3>
+            </div>
+
+            <div class="col-sm-3">
+                <a href="#"><img src="playstore.png" alt="no-img" class="footer-image"></a>
+            </div>
+
+            <div class="col-sm-3">
+                <a href="#"><img src="appstore.png" alt="no-img" class="footer-image"></a>
+            </div>
+
+            <div class="col-sm-3">
+                <a href="#">
+                    <h3>Contact Us</h3>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+
+</html>
